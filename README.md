@@ -18,7 +18,7 @@ The grading process consists of finding and classifying cancer tissue into so-ca
 ## Image preprocessing
 
 The tiff file contains 3-layer image with varied resolutions. 
-I used the second layer with medium resolution in this model. The image was cut into small tiles of size $$128 \times 128$$ and ordered from the tile with most signal to the tile with least signal or blank tile. The first 16 tiles were picked and pasted together to be the input to train the model.
+I used the second layer with medium resolution in this model. The image was cut into small tiles of size $`128 \times 128`$ and ordered from the tile with most signal to the tile with least signal or blank tile. The first 16 tiles were picked and pasted together to be the input to train the model.
 
 ![image](./c32fba73ac1af46b2ccfd549172f1227.png)
 
